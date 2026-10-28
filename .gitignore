@@ -1,0 +1,38 @@
+# Compiled object files and executables
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+
+# Generated test binaries (keep test source files)
+tests/test_canonical_json
+tests/test_consent_manager
+tests/test_crc32
+tests/test_event_pipeline
+tests/test_event_schema
+tests/test_journal_engine
+tests/test_rotation_engine
+tests/test_storage_quota
+tests/test_win32_security
+
+# Build output
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile.generated
+
+# Editor and OS files
+.vscode/
+.idea/
+*~
+.DS_Store
+
+# Secrets and local environment configuration
+.env
+.env.*
+!.env.example
